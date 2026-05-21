@@ -16,7 +16,7 @@ The frontend web application for LeaveFlowHR, built with Next.js and TypeScript.
 
 ## Tech Stack
 
-- **Next.js 15** — React framework (App Router)
+- **Next.js 16** — React framework (App Router)
 - **TypeScript** — Type safety
 - **shadcn/ui** — Component library
 - **Tailwind CSS** — Utility-first styling
