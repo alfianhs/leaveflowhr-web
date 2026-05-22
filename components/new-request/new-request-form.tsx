@@ -232,6 +232,7 @@ export function NewRequestForm({
                         mode="single"
                         selected={field.value}
                         onSelect={field.onChange}
+                        disabled={(date) => endDate ? date > endDate : false}
                       />
                     </PopoverContent>
                   </Popover>
@@ -270,6 +271,7 @@ export function NewRequestForm({
                         mode="single"
                         selected={field.value}
                         onSelect={field.onChange}
+                        disabled={(date) => startDate ? date < startDate : false}
                       />
                     </PopoverContent>
                   </Popover>
